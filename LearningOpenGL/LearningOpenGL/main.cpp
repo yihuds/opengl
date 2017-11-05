@@ -1,17 +1,15 @@
 //
-//  main.m
+//  main.cpp
 //  LearningOpenGL
 //
 //  Created by yihuds on 2017/11/5.
 //  Copyright © 2017年 hudongsong. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#include <iostream>
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
+    // insert code here...
+    std::cout << "Hello, World!\n";
     return 0;
 }

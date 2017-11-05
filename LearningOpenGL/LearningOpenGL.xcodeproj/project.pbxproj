@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B115B931FAECCFF00BF500A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B115B921FAECCFF00BF500A /* main.m */; };
+		1B115BA61FAECDEC00BF500A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B115BA51FAECDEC00BF500A /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1B115B8D1FAECCFF00BF500A /* CopyFiles */ = {
+		1B115BA01FAECDEC00BF500A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1B115B8F1FAECCFF00BF500A /* LearningOpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearningOpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B115B921FAECCFF00BF500A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B115BA21FAECDEC00BF500A /* LearningOpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearningOpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B115BA51FAECDEC00BF500A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1B115B8C1FAECCFF00BF500A /* Frameworks */ = {
+		1B115B9F1FAECDEC00BF500A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,26 +38,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B115B861FAECCFF00BF500A = {
+		1B115B991FAECDEC00BF500A = {
 			isa = PBXGroup;
 			children = (
-				1B115B911FAECCFF00BF500A /* LearningOpenGL */,
-				1B115B901FAECCFF00BF500A /* Products */,
+				1B115BA41FAECDEC00BF500A /* LearningOpenGL */,
+				1B115BA31FAECDEC00BF500A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1B115B901FAECCFF00BF500A /* Products */ = {
+		1B115BA31FAECDEC00BF500A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B115B8F1FAECCFF00BF500A /* LearningOpenGL */,
+				1B115BA21FAECDEC00BF500A /* LearningOpenGL */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1B115B911FAECCFF00BF500A /* LearningOpenGL */ = {
+		1B115BA41FAECDEC00BF500A /* LearningOpenGL */ = {
 			isa = PBXGroup;
 			children = (
-				1B115B921FAECCFF00BF500A /* main.m */,
+				1B115BA51FAECDEC00BF500A /* main.cpp */,
 			);
 			path = LearningOpenGL;
 			sourceTree = "<group>";
@@ -65,13 +65,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1B115B8E1FAECCFF00BF500A /* LearningOpenGL */ = {
+		1B115BA11FAECDEC00BF500A /* LearningOpenGL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B115B961FAECCFF00BF500A /* Build configuration list for PBXNativeTarget "LearningOpenGL" */;
+			buildConfigurationList = 1B115BA91FAECDEC00BF500A /* Build configuration list for PBXNativeTarget "LearningOpenGL" */;
 			buildPhases = (
-				1B115B8B1FAECCFF00BF500A /* Sources */,
-				1B115B8C1FAECCFF00BF500A /* Frameworks */,
-				1B115B8D1FAECCFF00BF500A /* CopyFiles */,
+				1B115B9E1FAECDEC00BF500A /* Sources */,
+				1B115B9F1FAECDEC00BF500A /* Frameworks */,
+				1B115BA01FAECDEC00BF500A /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -79,54 +79,54 @@
 			);
 			name = LearningOpenGL;
 			productName = LearningOpenGL;
-			productReference = 1B115B8F1FAECCFF00BF500A /* LearningOpenGL */;
+			productReference = 1B115BA21FAECDEC00BF500A /* LearningOpenGL */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1B115B871FAECCFF00BF500A /* Project object */ = {
+		1B115B9A1FAECDEC00BF500A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = hudongsong;
 				TargetAttributes = {
-					1B115B8E1FAECCFF00BF500A = {
+					1B115BA11FAECDEC00BF500A = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 1B115B8A1FAECCFF00BF500A /* Build configuration list for PBXProject "LearningOpenGL" */;
+			buildConfigurationList = 1B115B9D1FAECDEC00BF500A /* Build configuration list for PBXProject "LearningOpenGL" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 1B115B861FAECCFF00BF500A;
-			productRefGroup = 1B115B901FAECCFF00BF500A /* Products */;
+			mainGroup = 1B115B991FAECDEC00BF500A;
+			productRefGroup = 1B115BA31FAECDEC00BF500A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1B115B8E1FAECCFF00BF500A /* LearningOpenGL */,
+				1B115BA11FAECDEC00BF500A /* LearningOpenGL */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B115B8B1FAECCFF00BF500A /* Sources */ = {
+		1B115B9E1FAECDEC00BF500A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B115B931FAECCFF00BF500A /* main.m in Sources */,
+				1B115BA61FAECDEC00BF500A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1B115B941FAECCFF00BF500A /* Debug */ = {
+		1B115BA71FAECDEC00BF500A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -181,7 +181,7 @@
 			};
 			name = Debug;
 		};
-		1B115B951FAECCFF00BF500A /* Release */ = {
+		1B115BA81FAECDEC00BF500A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,7 +229,7 @@
 			};
 			name = Release;
 		};
-		1B115B971FAECCFF00BF500A /* Debug */ = {
+		1B115BAA1FAECDEC00BF500A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -238,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		1B115B981FAECCFF00BF500A /* Release */ = {
+		1B115BAB1FAECDEC00BF500A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -250,25 +250,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B115B8A1FAECCFF00BF500A /* Build configuration list for PBXProject "LearningOpenGL" */ = {
+		1B115B9D1FAECDEC00BF500A /* Build configuration list for PBXProject "LearningOpenGL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B115B941FAECCFF00BF500A /* Debug */,
-				1B115B951FAECCFF00BF500A /* Release */,
+				1B115BA71FAECDEC00BF500A /* Debug */,
+				1B115BA81FAECDEC00BF500A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B115B961FAECCFF00BF500A /* Build configuration list for PBXNativeTarget "LearningOpenGL" */ = {
+		1B115BA91FAECDEC00BF500A /* Build configuration list for PBXNativeTarget "LearningOpenGL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B115B971FAECCFF00BF500A /* Debug */,
-				1B115B981FAECCFF00BF500A /* Release */,
+				1B115BAA1FAECDEC00BF500A /* Debug */,
+				1B115BAB1FAECDEC00BF500A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1B115B871FAECCFF00BF500A /* Project object */;
+	rootObject = 1B115B9A1FAECDEC00BF500A /* Project object */;
 }
